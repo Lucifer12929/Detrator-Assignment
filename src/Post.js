@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Container, Grid, Card, CardContent, Typography,Chip } from '@mui/material';
 import { Alert } from '@mui/lab';
-import './App.css'
+import './Post.css'
 
-const App=()=> {
+const Post=()=> {
   // Store post data
   const [posts, setPosts] = useState([]);
   const [error, setError] = useState(null);
@@ -55,4 +55,4 @@ const App=()=> {
   );
 }
 
-export default App;
+export default Post;
